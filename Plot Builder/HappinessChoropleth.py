@@ -19,7 +19,7 @@ fig = go.Figure(data=go.Choropleth(
     reversescale=False,
     marker_line_color='darkgray',
     marker_line_width=0.5,
-    colorbar_title = 'Trust in Government',
+    colorbar_title = 'Happiness Level',
 ))
 
 ply.plot(fig, filename='happiness_choropleth.html')
